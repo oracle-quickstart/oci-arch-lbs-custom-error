@@ -54,7 +54,7 @@ Deploy:
 
 Login to OCI console. Open up the OCI Cloud Shell from the console.
 
-![](./images/picture1.png)
+![](./images/1.png)
 
 
 ### Step 2: Generate OCIR token
