@@ -54,7 +54,7 @@ Deploy:
 
 Login to OCI console. Open up the OCI Cloud Shell from the console.
 
-    ![](./images/1.png)
+![](./images/picture1.png)
 
 
 ### Step 2: Generate OCIR token
@@ -132,6 +132,8 @@ https://gist.github.com/KartikShrikantHegde/cc7bc6706c44bfe688dc9ec386115165
 Now, Once the bucket has been provisioned using Terraform use the CLI to upload the maintenance page from cloud shell.
 
     `oci os object put -ns mynamespace -bn mybucket --name maintenance.html --file ./maintenance.html`
+
+Now, if one of the backend servers is down and if you make a request to load balancer, you should be able to see the custom `maintenance.html` as the response.
 
 ## Destroy the Deployment
 When you no longer need the deployment, you can run this command to destroy it:
