@@ -1,6 +1,6 @@
 # oci-arch-lbs-custom-error
 
-Web applications typically include a web client, servers, and a datastore. Flask is a popular Python framework for developing web applications quickly and easily.
+Oracle Cloud Infrastructure Load Balancing service improves resource utilization, facilitates scaling, and ensures high availability. You can configure multiple load balancing policies and application-specific health checks to ensure that the load balancer directs traffic only to healthy instances. If one or more of the back-end servers report as unhealthy, a user trying to access the load balancer listener receives a standard error code and message as a response. However, by using Oracle Cloud Infrastructure Monitoring, Oracle Cloud Infrastructure Notifications, and Oracle Functions services, end-users can be served with a custom error page hosted by Oracle Cloud Infrastructure Object Storage service. This reference architecture showcases such a scenario to provide a better end-user experience.
 
 ## Terraform Provider for Oracle Cloud Infrastructure
 The OCI Terraform Provider is now available for automatic download through the Terraform Provider Registry. 
@@ -140,11 +140,11 @@ When you no longer need the deployment, you can run this command to destroy it:
 
     terraform destroy
 
-## Web Application Architecture
+## Custom Error Page for a Load Balancer Architecture
 
-![](./images/oci-arch-lbs-custom-error.png)
+![](./images/lbaas-maintenance-page.png)
 
 
 ## Reference Archirecture
 
-- [Deploy a highly available web application](https://docs.oracle.com/en/solutions/ha-web-app/index.html)
+- [Implement a custom error page for a load balancer using cloud-native services](https://docs.oracle.com/en/solutions/ha-web-app/index.html)
