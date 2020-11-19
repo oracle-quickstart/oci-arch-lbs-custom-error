@@ -147,4 +147,4 @@ When you no longer need the deployment, you can run this command to destroy it:
 
 ## Reference Archirecture
 
-- [Implement a custom error page for a load balancer using cloud-native services](https://docs.oracle.com/en/solutions/implement-lbaas-error-page/)
+- [Implement a custom error page for a load balancer using cloud native services](https://docs.oracle.com/en/solutions/implement-lbaas-error-page/)
